@@ -1,0 +1,30 @@
+{
+  "name": "fln-utilities",
+  "version": "0.0.20",
+  "description": "fln utilities is a JS/TS library for simple life in your code :)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts --target ES2017",
+    "upd": "npm version patch --force && git add package.json && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuckoffline/utilites.git"
+  },
+  "keywords": [
+    "typesript",
+    "javascript"
+  ],
+  "author": "fxckoffline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuckoffline/utilites/issues"
+  },
+  "homepage": "https://github.com/fuckoffline/utilites#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

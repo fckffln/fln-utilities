@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "outDir": "./js"
+  },
+  "exclude": [
+    "node_modules",
+    "./app/**/*.spec.ts",
+    "./app/**/*.test.ts"
+  ],
+  "include": [
+    "app/**/*",
+    "tests/**/*"
+  ],
+  "files": [
+    "index.ts",
+  ]
+}
