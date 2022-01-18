@@ -21,9 +21,7 @@
     "url": "https://github.com/fuckoffline/utilites/issues"
   },
   "homepage": "https://github.com/fuckoffline/utilites#readme",
-  "devDependencies": {
-    "typescript": "^4.5.4"
-  },
+  "devDependencies": {},
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   }

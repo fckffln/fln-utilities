@@ -1,3 +1,5 @@
+import {defineOptions} from "./model";
+
 const primitiveTypes = [
   'Number',
   'String',
@@ -8,8 +10,7 @@ const primitiveTypes = [
   'Function'
 ];
 
-export const defineType = (anything: any): string => {
-
+export const defineType = (anything: any, options?: defineOptions): string | string[] => {
   if (anything === undefined) return 'undefined';
   if (anything === null) return 'null';
   if (Array.isArray(anything)) return 'array';
@@ -18,7 +19,7 @@ export const defineType = (anything: any): string => {
   const type = primitiveTypes.includes(typeFactory) ? 'primitive' : 'object';
 
   if (type === 'primitive') return typeof anything;
-  if (typeFactory !== 'Object') return 'class';
+  if (typeFactory !== 'Object') return options?.classnames ? typeFactory : 'class';
 
   return type;
 };
