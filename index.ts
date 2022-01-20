@@ -2,7 +2,7 @@
  *
  *************************************************
  *                                               *
- *          FLN Utilities 0.0.21 ALPHA           *
+ *                  FLN Utilities                *
  *                                               *
  *                          by fxckoffline       *
  *                                               *
