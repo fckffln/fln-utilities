@@ -1,0 +1,20 @@
+export declare enum Emoji {
+    'redSquare' = "\uD83D\uDFE5",
+    'orangeSquare' = "\uD83D\uDFE7",
+    'yellowSquare' = "\uD83D\uDFE8",
+    'greenSquare' = "\uD83D\uDFE9",
+    'blueSquare' = "\uD83D\uDFE6",
+    'whiteSquare' = "\u2B1C",
+    'blackSquare' = "\u2B1B",
+    'OK' = "\uD83D\uDC4C",
+    'heart' = "\u2764\uFE0F",
+    'eye' = "\uD83D\uDC41\uFE0F",
+    'paw' = "\uD83D\uDC3E",
+    'ghost' = "\uD83D\uDC7B",
+    'alien' = "\uD83D\uDC7D",
+    'skull' = "\uD83D\uDC80",
+    'unicorn' = "\uD83E\uDD84",
+    'brain' = "\uD83E\uDDE0",
+    'HI' = "\uD83D\uDD90\uFE0F",
+    'cart' = "\uD83D\uDED2"
+}

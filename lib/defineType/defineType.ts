@@ -10,7 +10,7 @@ const primitiveTypes = [
   'Function'
 ];
 
-export const defineType = (anything: any, options?: defineOptions): string | string[] => {
+export const defineType = (anything: any, options?: defineOptions): string => {
   if (anything === undefined) return 'undefined';
   if (anything === null) return 'null';
   if (Array.isArray(anything)) return 'array';

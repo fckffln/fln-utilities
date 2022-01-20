@@ -26,12 +26,3 @@ const defineType = (anything, options) => {
     return type;
 };
 exports.defineType = defineType;
-let obj = {
-    a: [4, 6, 8],
-    b: {
-        a: { a: 5 }
-    },
-    c: { a: 5, b: 7 }
-};
-let result = (0, exports.defineType)(obj, { recursion: true });
-console.log(result);
