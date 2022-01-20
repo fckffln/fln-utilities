@@ -17,6 +17,4 @@
  *
  **/
 
-import { App } from "./app/app";
 export * from './lib/index';
-new App();
