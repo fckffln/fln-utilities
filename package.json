@@ -1,6 +1,6 @@
 {
   "name": "fln-utilities",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "description": "fln utilities is a JS/TS library for simple life in your code :)",
   "main": "index.js",
   "scripts": {

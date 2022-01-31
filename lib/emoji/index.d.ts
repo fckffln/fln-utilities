@@ -1,1 +1,1 @@
-export * from './emoji';
+export { Emoji } from './emoji';

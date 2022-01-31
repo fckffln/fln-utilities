@@ -1,4 +1,4 @@
-import { defineType } from "./defineType";
+import {defineType} from "./defineType";
 import {defineOptions} from "./model";
 
 /**
